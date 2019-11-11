@@ -25,8 +25,8 @@ public class LanguageService {
     }
 
     @Transactional
-    public void createLanguage(Language Language) {
-        repository.save(Language);
+    public void createLanguage(Language language) {
+        repository.save(language);
     }
 
     @Transactional

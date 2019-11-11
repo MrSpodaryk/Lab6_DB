@@ -15,6 +15,7 @@ public class LanguageDTO extends ResourceSupport {
     public LanguageDTO(Language language, Link selfLink) throws Exception {
         this.language = language;
         add(selfLink);
+
     }
 
     public int getLanguageId() {

@@ -11,6 +11,7 @@ public class UserPrivateInfo {
     private UserInfo userInfoByUserInfoId;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_info_id", nullable = false)
     public int getUserInfoId() {
         return userInfoId;

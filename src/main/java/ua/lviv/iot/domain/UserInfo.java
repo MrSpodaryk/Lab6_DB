@@ -13,6 +13,7 @@ public class UserInfo {
     private LevelOfExperience levelOfExperienceByLevelOfExperienceId;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;

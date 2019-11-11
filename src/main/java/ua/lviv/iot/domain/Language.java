@@ -1,9 +1,6 @@
 package ua.lviv.iot.domain;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Language {
@@ -11,6 +8,7 @@ public class Language {
     private String language;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -48,5 +46,13 @@ public class Language {
         int result = id;
         result = 31 * result + (language != null ? language.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Language{" +
+                "id=" + id +
+                ", language='" + language + '\'' +
+                '}';
     }
 }
