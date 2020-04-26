@@ -3,14 +3,14 @@ package ua.lviv.iot.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "candidate_level", schema = "Spodaryk_db", catalog = "")
+@Table(name = "candidate_level")
 public class CandidateLevel {
     private int id;
     private String level;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -20,7 +20,7 @@ public class CandidateLevel {
     }
 
     @Basic
-    @Column(name = "level", nullable = true, length = 45)
+    @Column(name = "level")
     public String getLevel() {
         return level;
     }

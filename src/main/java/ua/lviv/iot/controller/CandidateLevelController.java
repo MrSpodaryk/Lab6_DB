@@ -9,7 +9,6 @@ import ua.lviv.iot.DTO.CandidateLevelDTO;
 import ua.lviv.iot.domain.CandidateLevel;
 import ua.lviv.iot.service.CandidateLevelService;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 

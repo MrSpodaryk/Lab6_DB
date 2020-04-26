@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost/Spodaryk_db?createDatabaseIfNotExist=true&useSSL=false
+    url: jdbc:mysql://mysql-container:3306/Spodaryk_db?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
