@@ -2,17 +2,16 @@ CREATE DATABASE IF NOT EXISTS Spodaryk_db DEFAULT CHARACTER SET utf8;
 USE Spodaryk_db ;
 
 
-DROP TABLE IF EXISTS Spodaryk_db.vacancy_info_has_user_info;
-DROP TABLE IF EXISTS Spodaryk_db.candidate_level;
-DROP TABLE IF EXISTS Spodaryk_db.contact_person_info;
-DROP TABLE IF EXISTS Spodaryk_db.vacancy_info;
-DROP TABLE IF EXISTS Spodaryk_db.it_company_info;
-DROP TABLE IF EXISTS Spodaryk_db.language;
-DROP TABLE IF EXISTS Spodaryk_db.user_private_info;
-DROP TABLE IF EXISTS Spodaryk_db.user_info;
-DROP TABLE IF EXISTS Spodaryk_db.level_of_experience;
-DROP TABLE IF EXISTS Spodaryk_db.technical_level;
-
+# DROP TABLE IF EXISTS Spodaryk_db.vacancy_info_has_user_info;
+# DROP TABLE IF EXISTS Spodaryk_db.candidate_level;
+# DROP TABLE IF EXISTS Spodaryk_db.contact_person_info;
+# DROP TABLE IF EXISTS Spodaryk_db.vacancy_info;
+# DROP TABLE IF EXISTS Spodaryk_db.it_company_info;
+# DROP TABLE IF EXISTS Spodaryk_db.language;
+# DROP TABLE IF EXISTS Spodaryk_db.user_private_info;
+# DROP TABLE IF EXISTS Spodaryk_db.user_info;
+# DROP TABLE IF EXISTS Spodaryk_db.level_of_experience;
+# DROP TABLE IF EXISTS Spodaryk_db.technical_level;
 
 
 CREATE TABLE Spodaryk_db.candidate_level (
